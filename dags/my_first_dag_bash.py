@@ -10,7 +10,7 @@ default_args = {
 }
 #create DAGS
 with DAG(
-    dag_id = 'my_first_dag',
+    dag_id = 'dag_bash',
     description = 'this is our first dag that we will write',
     start_date = datetime(2022, 7, 29, 2),
     schedule_interval='@daily') as dag:
